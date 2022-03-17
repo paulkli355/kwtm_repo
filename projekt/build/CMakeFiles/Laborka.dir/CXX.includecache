@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/main.cpp
+iostream
+-
+LaborkaConfig.h
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/LaborkaConfig.h
+trygonometria.h
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/trygonometria.h
+cmath
+-
+
+LaborkaConfig.h
+

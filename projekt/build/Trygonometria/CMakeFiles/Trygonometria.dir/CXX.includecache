@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria/trygonometria.cpp
+trygonometria.h
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria/trygonometria.h
+cmath
+-
+
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria/trygonometria.h
+
