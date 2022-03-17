@@ -1,3 +1,6 @@
 /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/rebuild_cache.dir
 /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/edit_cache.dir
 /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/Laborka.dir
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/Trygonometria/CMakeFiles/rebuild_cache.dir
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/Trygonometria/CMakeFiles/edit_cache.dir
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/Trygonometria/CMakeFiles/Trygonometria.dir

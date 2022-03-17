@@ -90,6 +90,7 @@ Laborka_EXTERNAL_OBJECTS =
 
 Laborka: CMakeFiles/Laborka.dir/main.cpp.o
 Laborka: CMakeFiles/Laborka.dir/build.make
+Laborka: Trygonometria/libTrygonometria.a
 Laborka: CMakeFiles/Laborka.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Laborka"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Laborka.dir/link.txt --verbose=$(VERBOSE)

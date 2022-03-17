@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build
 # Target rules for target CMakeFiles/Laborka.dir
 
 # All Build rule for target.
-CMakeFiles/Laborka.dir/all:
+CMakeFiles/Laborka.dir/all: Trygonometria/CMakeFiles/Trygonometria.dir/all
 	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/depend
 	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles --progress-num=1,2 "Built target Laborka"
@@ -76,7 +76,7 @@ all: CMakeFiles/Laborka.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Laborka.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Laborka.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles 0
 .PHONY : CMakeFiles/Laborka.dir/rule
@@ -93,6 +93,61 @@ CMakeFiles/Laborka.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Laborka.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Trygonometria
+
+# Convenience name for "all" pass in the directory.
+Trygonometria/all: Trygonometria/CMakeFiles/Trygonometria.dir/all
+
+.PHONY : Trygonometria/all
+
+# Convenience name for "clean" pass in the directory.
+Trygonometria/clean: Trygonometria/CMakeFiles/Trygonometria.dir/clean
+
+.PHONY : Trygonometria/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Trygonometria/preinstall:
+
+.PHONY : Trygonometria/preinstall
+
+#=============================================================================
+# Target rules for target Trygonometria/CMakeFiles/Trygonometria.dir
+
+# All Build rule for target.
+Trygonometria/CMakeFiles/Trygonometria.dir/all:
+	$(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/depend
+	$(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles --progress-num=3,4 "Built target Trygonometria"
+.PHONY : Trygonometria/CMakeFiles/Trygonometria.dir/all
+
+# Include target in all.
+all: Trygonometria/CMakeFiles/Trygonometria.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Trygonometria/CMakeFiles/Trygonometria.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Trygonometria/CMakeFiles/Trygonometria.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles 0
+.PHONY : Trygonometria/CMakeFiles/Trygonometria.dir/rule
+
+# Convenience name for target.
+Trygonometria: Trygonometria/CMakeFiles/Trygonometria.dir/rule
+
+.PHONY : Trygonometria
+
+# clean rule for target.
+Trygonometria/CMakeFiles/Trygonometria.dir/clean:
+	$(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/clean
+.PHONY : Trygonometria/CMakeFiles/Trygonometria.dir/clean
+
+# clean rule for target.
+clean: Trygonometria/CMakeFiles/Trygonometria.dir/clean
 
 .PHONY : clean
 

@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/Trygonometria/CMakeFiles/progress.marks
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f CMakeFiles/Makefile2 Trygonometria/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f CMakeFiles/Makefile2 Trygonometria/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,71 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f CMakeFiles/Makefile2 Trygonometria/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f CMakeFiles/Makefile2 Trygonometria/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Laborka
+# Convenience name for target.
+Trygonometria/CMakeFiles/Trygonometria.dir/rule:
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f CMakeFiles/Makefile2 Trygonometria/CMakeFiles/Trygonometria.dir/rule
+.PHONY : Trygonometria/CMakeFiles/Trygonometria.dir/rule
 
-# Build rule for target.
-Laborka: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Laborka
-.PHONY : Laborka
+# Convenience name for target.
+Trygonometria: Trygonometria/CMakeFiles/Trygonometria.dir/rule
 
-# fast build rule for target.
-Laborka/fast:
-	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/build
-.PHONY : Laborka/fast
-
-#=============================================================================
-# Target rules for targets named Trygonometria
-
-# Build rule for target.
-Trygonometria: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Trygonometria
 .PHONY : Trygonometria
 
 # fast build rule for target.
 Trygonometria/fast:
-	$(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/build
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/build
 .PHONY : Trygonometria/fast
 
-main.o: main.cpp.o
+trygonometria.o: trygonometria.cpp.o
 
-.PHONY : main.o
+.PHONY : trygonometria.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/main.cpp.o
-.PHONY : main.cpp.o
+trygonometria.cpp.o:
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/trygonometria.cpp.o
+.PHONY : trygonometria.cpp.o
 
-main.i: main.cpp.i
+trygonometria.i: trygonometria.cpp.i
 
-.PHONY : main.i
+.PHONY : trygonometria.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/main.cpp.i
-.PHONY : main.cpp.i
+trygonometria.cpp.i:
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/trygonometria.cpp.i
+.PHONY : trygonometria.cpp.i
 
-main.s: main.cpp.s
+trygonometria.s: trygonometria.cpp.s
 
-.PHONY : main.s
+.PHONY : trygonometria.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/main.cpp.s
-.PHONY : main.cpp.s
+trygonometria.cpp.s:
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/trygonometria.cpp.s
+.PHONY : trygonometria.cpp.s
 
 # Help Target
 help:
@@ -171,11 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Laborka"
 	@echo "... Trygonometria"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... trygonometria.o"
+	@echo "... trygonometria.i"
+	@echo "... trygonometria.s"
 .PHONY : help
 
 
@@ -187,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/student/Desktop/Klimanek/kwtm_repo/projekt/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
