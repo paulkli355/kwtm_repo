@@ -32,7 +32,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/CMakeLists.txt"
   "/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/LaborkaConfig.h.in"
-  "/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +44,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "LaborkaConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Trygonometria/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Laborka.dir/DependInfo.cmake"
-  "Trygonometria/CMakeFiles/Trygonometria.dir/DependInfo.cmake"
   )

@@ -123,19 +123,6 @@ Laborka/fast:
 	$(MAKE) -f CMakeFiles/Laborka.dir/build.make CMakeFiles/Laborka.dir/build
 .PHONY : Laborka/fast
 
-#=============================================================================
-# Target rules for targets named Trygonometria
-
-# Build rule for target.
-Trygonometria: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Trygonometria
-.PHONY : Trygonometria
-
-# fast build rule for target.
-Trygonometria/fast:
-	$(MAKE) -f Trygonometria/CMakeFiles/Trygonometria.dir/build.make Trygonometria/CMakeFiles/Trygonometria.dir/build
-.PHONY : Trygonometria/fast
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -172,7 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Laborka"
-	@echo "... Trygonometria"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
