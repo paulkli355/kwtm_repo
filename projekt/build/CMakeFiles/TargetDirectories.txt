@@ -1,0 +1,3 @@
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/rebuild_cache.dir
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/edit_cache.dir
+/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build/CMakeFiles/Laborka.dir
