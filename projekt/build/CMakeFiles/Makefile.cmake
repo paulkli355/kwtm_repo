@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/CMakeLists.txt"
+  "/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/LaborkaConfig.h.in"
   "/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria/CMakeLists.txt"
   )
 
@@ -42,6 +43,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "LaborkaConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Trygonometria/CMakeFiles/CMakeDirectoryInformation.cmake"
   )

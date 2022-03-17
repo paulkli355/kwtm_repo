@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria 
+CXX_INCLUDES = -I/Users/student/Desktop/Klimanek/kwtm_repo/projekt/build -I/Users/student/Desktop/Klimanek/kwtm_repo/projekt/src/Trygonometria 
 

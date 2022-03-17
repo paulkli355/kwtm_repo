@@ -188,6 +188,9 @@ PierwszyProgram_SOURCE_DIR:STATIC=/Users/student/Desktop/Klimanek/kwtm_repo/proj
 //Dependencies for target
 Trygonometria_LIB_DEPENDS:STATIC=
 
+//Czy argumentami funkcji trygonometrycznych maja byc stopnie
+USE_TRIGONOMETRY_DEGREE:BOOL=ON
+
 
 ########################
 # INTERNAL cache entries
